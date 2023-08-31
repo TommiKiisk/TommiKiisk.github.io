@@ -1,13 +1,22 @@
 body{
     background-color: aquamarine;
     color: rgba(3, 137, 28, 0.756);
+    font-size: 30px;
 
 }
 h1{
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+h2{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
 p{
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 180px;
+    margin-left: 80px;
 }
