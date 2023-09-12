@@ -4,8 +4,24 @@ body{
 
 }
 h1{
-    color: rgb(219, 107, 8);
+    color: rgba(224, 173, 7, 0.811);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 40px;
+}
+h2{
+    color: blueviolet;
 }
 p{
     color: aquamarine;
+    margin: 20px;
+}
+a{
+    margin-left: 20px;
+    color: rgb(255, 2, 238);
+    font-size: 20px;
+}
+ul{
+    color: aqua;
+    font-size: 20px;
 }
