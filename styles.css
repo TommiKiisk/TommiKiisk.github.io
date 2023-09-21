@@ -40,7 +40,7 @@ a{
 .topnav {
     background-color: #333;
     overflow: hidden;
-    width: 1vw;
+    width: 100vw;
   }
   
   /* Style the links inside the navigation bar */
@@ -67,7 +67,7 @@ a{
 table{
     color:rgb(3, 3, 105);
     background-color: rgb(178, 231, 213);
-    width: 10vw;
+    width: 100vw;
 }
 td{
     background-color: blanchedalmond;
