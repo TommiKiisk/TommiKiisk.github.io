@@ -39,7 +39,7 @@ a{
 .topnav {
     background-color: #333;
     overflow: hidden;
-    max-width: 100%;
+    width: 100%;
   }
   
   
@@ -67,7 +67,8 @@ a{
 table{
     color:rgb(3, 3, 105);
     background-color: rgb(178, 231, 213);
-    max-width: 70%;
+    max-width: 600px;
+    
     
 }
 
