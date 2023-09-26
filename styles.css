@@ -68,7 +68,7 @@ ul{
   }
 
   .menu a{
-    color:#810add
+    color:#53078d
   }
   
   .menu {
@@ -165,7 +165,7 @@ ul{
       padding: 0.5em 0;
       width: 100%;
       color: black;
-      background-color: #151716;
+      background-color: #06e274;
       
     }
     .menu > li:not(:last-child) {
