@@ -56,19 +56,20 @@ ul{
     background-image: linear-gradient(to right, #5a6001 , #013636);
     color: #3D0E61;
     height: 65px;
-    padding: 1em;
+    padding: 5px;
     font-weight:bolder;
     font-size:25px;
   }
   .menu li:hover{
     color:rgb(153, 8, 8);
     cursor:pointer;
-    background-color:purple;
+    background-color:rgb(181, 3, 181);
   
   }
 
   .menu a{
-    color:#7e07d9
+    color:#05537a;
+    
   }
   
   .menu {
