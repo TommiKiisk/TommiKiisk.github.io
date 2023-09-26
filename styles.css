@@ -68,14 +68,7 @@ a{
     
   }
 
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-
+  
 table{
     color:rgb(3, 3, 105);
     background-color: rgb(178, 231, 213);
