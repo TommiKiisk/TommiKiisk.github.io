@@ -17,8 +17,9 @@ h1{
 }
 h2{
     color: blueviolet;
-    margin-left:30px
+    text-align: left;
 }
+
 p{
     color: aquamarine;
     margin: 20px;
@@ -27,7 +28,7 @@ p{
 ul{
     color: rgb(2, 181, 181);
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 
@@ -35,17 +36,11 @@ ul{
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    height: 100%;
-  }
   
-  h2 {
-    text-align: center;
-  }
   .logo{
     text-shadow: 2px 2px 2px #000000;
     color:rgb(6, 131, 37);
+    margin: 25px;
   }
   
   .nav {
@@ -53,12 +48,12 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #5a6001 , #013636);
+    background-image: linear-gradient(to right, #5a6001 , #025815);
     color: #3D0E61;
-    height: 65px;
-    padding: 5px;
+    height: 75px;
+    padding: 20px;
     font-weight:bolder;
-    font-size:25px;
+    font-size:35px;
   }
   .menu li:hover{
     color:rgb(153, 8, 8);
@@ -68,8 +63,8 @@ ul{
   }
 
   .menu a{
-    color:#05537a;
-    
+    color:#0773a9;
+    text-decoration: none;
   }
   
   .menu {
@@ -141,7 +136,7 @@ ul{
     .menu {
       position: absolute;
       top: 0;
-      margin-top: 50px;
+      margin-top: 84px;
       left: 0;
       flex-direction: column;
       width: 100%;
@@ -164,7 +159,7 @@ ul{
       justify-content: center;
       margin: 0;
       padding: 0.5em 0;
-      width: 100%;
+      width: 97.5%;
       color: black;
       background-color: #06e274;
       
@@ -174,6 +169,7 @@ ul{
    
     }
   }
+
 
 
 table{
@@ -193,4 +189,26 @@ td{
 th{
     background-color:rgb(93, 188, 4);
     padding: 9px;
+}
+
+.job1{
+    background-color: #3d0e617e;
+    padding: 20px;
+    height: 200px;
+    width: 45%;
+    margin: 20px;
+    
+    
+}
+.job2{
+  background-color:#0773a96b;
+  padding: 20px;
+  height: 200px;
+  width: 45%;
+  top: -190px;
+  right:40px;
+  left: -20px;
+  float: right;
+  position: relative;
+  
 }
