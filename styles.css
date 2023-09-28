@@ -215,6 +215,7 @@ th{
   left: -15px;
   float: right;
   position: relative;
+  z-index: -1;
   
 }
 .jobh2{
