@@ -42,7 +42,7 @@ ul{
   
   .logo{
     text-shadow: 2px 2px 2px #000000;
-    color:rgb(6, 131, 37);
+    color:rgb(102, 206, 137);
     margin: 25px;
   }
   
@@ -68,6 +68,11 @@ ul{
   .menu a{
     color:#0773a9;
     text-decoration: none;
+    height:inherit;
+    width: inherit;
+    margin:0;
+    padding:0;
+    text-align: center;
   }
   
   .menu {
@@ -153,7 +158,7 @@ ul{
       border: 0;
     }
     #menu-toggle:checked ~ .menu li {
-      border: 1px solid #9f9a9a;
+      border: 3px solid #1f8907;
       height: 2.5em;
       padding: 0.5em;
     }
@@ -161,24 +166,31 @@ ul{
       display: flex;
       justify-content: center;
       margin: 0;
-      padding: 0.5em 0;
+      padding: 0;
       width: 95.8%;
-      color: black;
-      background-color: #06e274;
+      background-color: #b2d437;
       
     }
+    
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
    
     }
+    
   }
-
+.active{
+  background-color:rgb(181, 3, 181);
+  height:inherit;
+  width:inherit;
+  padding: 0;
+  margin:0;
+}
 
 
 table{
     color:rgb(3, 3, 105);
-    background-color: rgb(178, 231, 213);
-    max-width: 600px;
+    background-color: rgb(135, 179, 164);
+    max-width: 90%;
     margin: 25px;
     margin-top: 50px;
     
@@ -192,14 +204,14 @@ td{
 }
 
 th{
-    background-color:rgb(93, 188, 4);
+    background-color:rgb(66, 132, 3);
     padding: 9px;
 }
 
 .job1{
-    background-color: #3d0e617e;
+    background-color: #7719be6a;
     padding: 20px;
-    height: 200px;
+    height: 250px;
     width: 45%;
     margin: 20px;
     
@@ -208,7 +220,7 @@ th{
 .job2{
   background-color:#0773a96b;
   padding: 20px;
-  height: 200px;
+  height: 250px;
   width: 45%;
   top: -190px;
   right:40px;
@@ -218,11 +230,20 @@ th{
   z-index: -1;
   
 }
+
+.job3{
+  background-color: #f1f50e51;
+  padding: 20px;
+  height: 250px;
+  width: 45%;
+  margin: 20px;
+}
 .jobh2{
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .jobp{
   margin-left: 10px;
   margin-top: 10px;
