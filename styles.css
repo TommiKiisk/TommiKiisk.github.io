@@ -162,7 +162,7 @@ ul{
     #menu-toggle:checked ~ .menu li {
       border: 3px solid #1f8907;
       height: 2.5em;
-      padding: 0.5em;
+      
     }
     .menu > li {
       display: flex;
@@ -178,14 +178,23 @@ ul{
       border-bottom: 1px solid #444;
    
     }
-    
+    .menu a{
+      color:#064b6e;
+      text-decoration: none;
+      height: 100%;
+      width: 105%;
+      margin:0;
+      padding:0;
+      text-align: center;
+    }
   }
+
 .active{
   background-color:rgb(181, 3, 181);
-  height:inherit;
-  width:inherit;
+  height: inherit;
+  width: inherit;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 
@@ -251,4 +260,96 @@ th{
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.about{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+.aboutsection{
+  background-color: #7719be6a;
+  padding: 20px;
+  height: 250px;
+  width: 45%;
+  margin: 20px;
+  
+  
+}
+
+#mypic{
+  background-color:#0773a96b;
+  padding: 20px;
+  height: 300px;
+  width: 45%;
+  margin: 20px;
+  top: -190px;
+  align-items: center;
+  float: right;
+  position: relative;
+
+
+}
+#tommi{
+  height:80%;
+  width: auto;
+  margin: 30px;
+  
+}
+.aboutsection2{
+  background-color: #f1f50e51;
+  padding: 20px;
+  height: 250px;
+  width: 45%;
+  margin: 20px;
+  top: 0px;
+  
+}
+
+
+@media (max-width: 700px) {
+  .about{
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  .aboutsection{
+    background-color: #7719be6a;
+    padding: 20px;
+    height: 250px;
+    width: 90%;
+    margin: 20px;
+    
+    
+  }
+  #mypic{
+    background-color:#0773a96b;
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+    margin: 20px;
+    top: 0px;
+    float:none;
+  }
+  #tommi{
+    margin:30px;
+    height:80%;
+    width: auto;
+    
+  }
+
+  .aboutsection2{
+    background-color: #f1f50e51;
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+    margin: 20px;
+    
+    
+    
+    
+    
+  }
 }
