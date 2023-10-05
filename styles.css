@@ -8,6 +8,7 @@ body{
     background-repeat: repeat;
     background-position: center;
     
+    
 
 }
 h1{
@@ -46,7 +47,11 @@ ul{
   .logo{
     text-shadow: 2px 2px 2px #000000;
     color:rgb(102, 206, 137);
-    margin: 25px;
+    margin: 2px;
+    background-color: inherit;
+    font-size: 44px;
+    font-family: 'merriweather';
+    border: none;
   }
   
   .nav {
