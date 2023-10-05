@@ -63,12 +63,12 @@ ul{
   .menu li:hover{
     color:rgb(153, 8, 8);
     cursor:pointer;
-    background-color:rgb(181, 3, 181);
+    background-color:rgb(214, 3, 214);
   
   }
 
   .menu a{
-    color:#0773a9;
+    color:#0471a7;
     text-decoration: none;
     height:inherit;
     width: inherit;
@@ -108,7 +108,7 @@ ul{
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #919405;
+  background-color: #8c8e1b;
   position: absolute;
   height: 6px;
   width: 32px;
@@ -179,7 +179,7 @@ ul{
    
     }
     .menu a{
-      color:#064b6e;
+      color: #0471a7;
       text-decoration: none;
       height: 100%;
       width: 105%;
@@ -190,7 +190,7 @@ ul{
   }
 
 .active{
-  background-color:rgb(181, 3, 181);
+  background-color:rgb(214, 3, 214);
   height: inherit;
   width: inherit;
   padding: 0;
@@ -293,7 +293,7 @@ th{
 
 }
 #tommi{
-  height:80%;
+  height: auto;
   width: auto;
   margin: 30px;
   
@@ -334,8 +334,8 @@ th{
     float:none;
   }
   #tommi{
-    margin:30px;
-    height:80%;
+    margin: 15px;
+    height: 190px;
     width: auto;
     
   }
