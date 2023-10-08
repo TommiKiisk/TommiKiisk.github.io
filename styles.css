@@ -194,7 +194,7 @@ ul{
       text-align: center;
     }
     .logo{
-      font-size: 40px;
+      font-size: 31px;
     }
   }
 
@@ -328,10 +328,17 @@ th{
 
 
 @media (max-width: 1000px) {
+  .jobp{
+    font-size: 14px;
+    margin: 0;
+  }
+  .jobh2{
+    margin-bottom: 20px;
+  }
   .job1{
     background-color: #7719be6a;
     padding: 20px;
-    height: 375px;
+    height: 300px;
     width: 45%;
     margin: 20px;
     
@@ -340,9 +347,9 @@ th{
   .job2{
     background-color:#0773a96b;
     padding: 20px;
-    height: 420px;
+    height: 300px;
     width: 45%;
-    top: -300px;
+    top: -200px;
     right:40px;
     left: -15px;
     float: right;
@@ -354,7 +361,7 @@ th{
   .job3{
     background-color: #f1f50e51;
     padding: 20px;
-    height: 250px;
+    height: 200px;
     width: 45%;
     margin: 20px;
   }
