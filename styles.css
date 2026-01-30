@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(3, 141, 95);
     color: rgba(3, 137, 28, 0.756);
     font-size: 16px;
@@ -7,17 +7,16 @@ body{
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    
-    
-
 }
-h1{
+
+h1 {
     color: rgba(224, 173, 7, 0.811);
     font-size: 50px;
     text-align: left;
     margin-left: 60px;
 }
-h2{
+
+h2 {
     color: blueviolet;
     text-align: left;
     margin-left: 60px;
@@ -26,77 +25,75 @@ h2{
     font-size: 24px;
 }
 
-p{
+p {
     color: rgb(2, 181, 181);
     margin: 20px;
     font-size: 18px;
 }
 
-ul{
+ul {
     color: rgb(2, 181, 181);
     font-size: 20px;
     margin-left: 65px;
 }
 
-
 * {
     box-sizing: border-box;
-  }
-  
-  
-  .logo{
+}
+
+.logo {
     text-shadow: 2px 2px 2px #000000;
-    color:rgb(102, 206, 137);
+    color: rgb(102, 206, 137);
     margin: 2px;
     background-color: inherit;
     font-size: 44px;
     font-family: 'merriweather';
     border: none;
-  }
-  
-  .nav {
+}
+
+.nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #5a6001 , #025815);
+    background-image: linear-gradient(to right, #5a6001, #025815);
     color: #3D0E61;
     height: 90px;
     padding: 20px;
-    font-weight:bolder;
-    font-size:35px;
-  }
-  .menu li:hover{
-    color:rgb(153, 8, 8);
-    cursor:pointer;
-    background-color:rgb(214, 3, 214);
-  
-  }
+    font-weight: bolder;
+    font-size: 35px;
+}
 
-  .menu a{
-    color:#0471a7;
+.menu li:hover {
+    color: rgb(153, 8, 8);
+    cursor: pointer;
+    background-color: rgb(214, 3, 214);
+}
+
+.menu a {
+    color: #0471a7;
     text-decoration: none;
-    height:inherit;
+    height: inherit;
     width: inherit;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     text-align: center;
-  }
-  
-  .menu {
+}
+
+.menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .menu > li {
+}
+
+.menu > li {
     margin: 0 1rem;
     overflow: hidden;
-  }
-  
-  .menu-button-container {
+}
+
+.menu-button-container {
     display: none;
     height: 100%;
     width: 30px;
@@ -104,312 +101,288 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  #menu-toggle {
+}
+
+#menu-toggle {
     display: none;
-  }
-  
-  .menu-button,
+}
+
+.menu-button,
 .menu-button::before,
 .menu-button::after {
-  display: block;
-  background-color: #8c8e1b;
-  position: absolute;
-  height: 6px;
-  width: 32px;
-  border-radius: 3px;
+    display: block;
+    background-color: #8c8e1b;
+    position: absolute;
+    height: 6px;
+    width: 32px;
+    border-radius: 3px;
 }
 
 .menu-button::before {
-  content: '';
-  margin-top: -8px;
+    content: '';
+    margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
-  margin-top: 8px;
+    content: '';
+    margin-top: 8px;
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(45deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-45deg);
-  }
-
-  @media (max-width: 800px) {
-    .menu-button-container {
-      display: flex;
-    }
-    .menu {
-      position: absolute;
-      top: 0;
-      margin-top: 98px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-    }
-    #menu-toggle:checked ~ .menu li {
-      border: 3px solid #1f8907;
-      height: 2.5em;
-      
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-      width: 95.8%;
-      background-color: #b2d437;
-      
-    }
-    
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-   
-    }
-    .menu a{
-      color: #0471a7;
-      text-decoration: none;
-      height: 100%;
-      width: 105%;
-      margin:0;
-      padding:0;
-      text-align: center;
-    }
-    .logo{
-      font-size: 30px;
-    }
-  }
-
-.active{
-  background-color:rgb(214, 3, 214);
-  height: inherit;
-  width: inherit;
-  padding: 0;
-  margin: 0;
 }
 
+#menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
 
-table{
-    color:rgb(3, 3, 105);
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-45deg);
+}
+
+.active {
+    background-color: rgb(214, 3, 214);
+    height: inherit;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    color: rgb(3, 3, 105);
     background-color: rgb(135, 179, 164);
     max-width: 90%;
     margin: 20px;
     margin-top: 50px;
-    
-    
 }
 
-td{
+td {
     background-color: rgba(1, 76, 7, 0.968);
     color: rgb(180, 210, 9);
     padding: 20px;
 }
 
-th{
-    background-color:rgb(66, 132, 3);
+th {
+    background-color: rgb(66, 132, 3);
     padding: 9px;
 }
-.koulu{
-  color:inherit;
-  padding: px;
-  padding-left: 0;
+
+.koulu {
+    color: inherit;
+    padding: 0;
+    padding-left: 0;
 }
 
-.job1{
+.job1 {
     background-color: #7719be6a;
     padding: 20px;
     height: 250px;
     width: 45%;
     margin: 20px;
-    
-    
-}
-.job2{
-  background-color:#0773a96b;
-  padding: 20px;
-  height: 250px;
-  width: 45%;
-  top: -190px;
-  right:40px;
-  left: -15px;
-  float: right;
-  position: relative;
-  z-index: -1;
-  
 }
 
-.job3{
-  background-color: #f1f50e51;
-  padding: 20px;
-  height: 250px;
-  width: 45%;
-  margin: 20px;
-}
-.jobh2{
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.jobp{
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.about{
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-
-}
-.aboutsection{
-  background-color: #7719be6a;
-  padding: 20px;
-  height: 250px;
-  width: 45%;
-  margin: 20px;
-  
-  
-}
-
-#mypic{
-  background-color:#0773a96b;
-  padding: 20px;
-  height: 300px;
-  width: 45%;
-  margin: 20px;
-  top: -190px;
-  align-items: center;
-  float: right;
-  position: relative;
-
-
-}
-#tommi{
-  height: auto;
-  width: auto;
-  margin-top: 15px;
-  border-radius: 15px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
-  margin-right:auto;
-  margin-left:auto;
-  display: block;
-}
-.aboutsection2{
-  background-color: #f1f50e51;
-  padding: 20px;
-  height: 250px;
-  width: 45%;
-  margin: 20px;
-  top: 0px;
-  
-}
-
-
-@media (max-width: 1000px) {
-  .jobp{
-    font-size: 14px;
-    margin: 0;
-  }
-  .jobh2{
-    margin-bottom: 20px;
-  }
-  .job1{
-    background-color: #7719be6a;
+.job2 {
+    background-color: #0773a96b;
     padding: 20px;
-    height: 275px;
+    height: 250px;
     width: 45%;
-    margin: 20px;
-    
-    
-  }
-  .job2{
-    background-color:#0773a96b;
-    padding: 20px;
-    height: 275px;
-    width: 45%;
-    top: -200px;
-    right:40px;
+    top: -190px;
+    right: 40px;
     left: -15px;
     float: right;
     position: relative;
     z-index: -1;
-  
-  }
+}
 
-  .job3{
+.job3 {
     background-color: #f1f50e51;
+    padding: 20px;
+    height: 250px;
+    width: 45%;
+    margin: 20px;
+}
+
+.jobh2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jobp {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutsection {
+    background-color: #7719be6a;
+    padding: 20px;
+    height: 250px;
+    width: 45%;
+    margin: 20px;
+}
+
+#mypic {
+    background-color: #0773a96b;
     padding: 20px;
     height: 300px;
     width: 45%;
     margin: 20px;
-  }
-  .about{
-    margin: 10px;
-    font-size: 17px;
-  }
+    top: -190px;
+    float: right;
+    position: relative;
+}
 
-  .aboutsection{
-    background-color: #7719be6a;
-    padding: 20px;
-    height: 300px;
-    width: 90%;
-    margin: 20px;
-    
-    
-  }
-  #mypic{
-    background-color:#0773a96b;
-    padding: 20px;
-    height: 300px;
-    width: 90%;
-    margin: 20px;
-    top: 0px;
-    float:none;
-  }
-  #tommi{
-    margin-right:auto;
-    margin-left:auto;
-    display: block;
-    height: 195px;
+#tommi {
+    height: auto;
     width: auto;
+    margin-top: 15px;
     border-radius: 15px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
-    
-  
-  }
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
 
-  .aboutsection2{
+.aboutsection2 {
     background-color: #f1f50e51;
     padding: 20px;
-    height: 300px;
-    width: 90%;
+    height: 250px;
+    width: 45%;
     margin: 20px;
-    
-    
-    
-    
-    
-  }
+}
+
+@media (max-width: 1100px) {
+    .job2,
+    #mypic {
+        top: -140px;
+    }
+}
+
+@media (max-width: 850px) {
+    .job1,
+    .job2,
+    .job3,
+    .aboutsection,
+    .aboutsection2,
+    #mypic {
+        float: none !important;
+        width: 90% !important;
+        margin: 30px auto !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        position: static !important;
+        z-index: auto !important;
+    }
+
+    .jobp,
+    .about {
+        font-size: 16px;
+        margin: 15px;
+    }
+
+    #mypic {
+        height: auto;
+        padding: 15px;
+    }
+
+    #tommi {
+        height: auto;
+        max-height: 240px;
+        width: 100%;
+    }
+
+    .job1,
+    .job3,
+    .aboutsection,
+    .aboutsection2 {
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+        margin-left: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    p,
+    ul,
+    .jobp,
+    .about {
+        font-size: 15px;
+        margin: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 98px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #menu-toggle:checked ~ .menu li {
+        border: 3px solid #1f8907;
+        height: 2.5em;
+    }
+
+    .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 95.8%;
+        background-color: #b2d437;
+    }
+
+    .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    .menu a {
+        color: #0471a7;
+        text-decoration: none;
+        height: 100%;
+        width: 105%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
 }
