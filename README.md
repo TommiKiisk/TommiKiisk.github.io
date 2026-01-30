@@ -1,2 +1,3 @@
 # My CV page
-tommikiisk.github.io
+
+[link to the CV page](tommikiisk.github.io)
